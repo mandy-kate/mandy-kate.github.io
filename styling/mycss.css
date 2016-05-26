@@ -2,9 +2,20 @@
     font-family: sans-serif;
     background-color: #F0F8ff;
     color: black;
+    text-align: center;
 }
 
-.italic { 
-  font-style: italic; 
+#container {
+    display: flex;
+    justify-content: center;
 }
 
+.italic {
+  font-style: italic;
+}
+
+#mypic {
+    background-image: url('assets/background-otago.jpg');
+    background-size: cover;
+    min-height: 23.5rem;
+}
