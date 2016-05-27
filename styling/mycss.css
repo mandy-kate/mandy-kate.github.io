@@ -5,9 +5,8 @@
     text-align: center;
 }
 
-#container {
-    display: flex;
-    justify-content: center;
+.container {
+    text-align: center;
 }
 
 .italic {
