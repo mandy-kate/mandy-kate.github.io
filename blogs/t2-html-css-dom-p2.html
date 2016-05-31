@@ -1,29 +1,59 @@
-  <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-<head>
-    <link type="text/css" rel="stylesheet" href="../styling/mycss.css"/>
-        <title>Mandy's Blog</title>
-</head>
-<body>
-    <div class="html-css-dom-content">
-        <div class="question-one">
-            <h2> What is grid based design?</h2>
-            <p>Grid based design takes advantage of the way people read (left - right, then top - bottom). It uses columns and rows within the page to make the most out of a page layout. A grid is split in rows and columns and HTML elements are placed in each area of the grid. Typically a row is divided into 12 columns (1/12 = 8.33% of the page, 2/12 = 16.66% of the page and so on). 12 is a good number to use because the width of a page is typically divided into 2,3 or 4 sections and 12 is the lowest number that is divisible by all those numbers.
-            </p>
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/3.0.3/normalize.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="../styling/mycss.css">
+    <script src="https://use.fontawesome.com/0c6d7a96cd.js"></script>
+  </head>
+  <body>
+    <div>
+      <div class="container header" id="mypic">
+        <div class="row">
+            <div class="twelve columns ext-links">
+              <ul id="social-links">
+                <li>
+                  <a href="https://www.linkedin.com/in/mandy-baker-60306737?trk=hp-identity-name">
+                    <i class="fa fa-linkedin fa-4x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="https://github.com/mandy-kate">
+                    <i class="fa fa-github fa-4x" aria-hidden="true"></i>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:mandykatebaker@gmail.com">
+                    <i class="fa fa-envelope-o fa-4x" aria-hidden="true"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          <div class= "contain">
+            <div class="row">
+              <div class="twelve columns heading">
+                <h1> Udacity Reflection Two<h1>
+                <h3> Mandy Baker </h3>
+              </div>
+            </div>
+          </div>
+         </div>
         </div>
-        <div class="question-two">
-            <h2>Whats all the hype about responsive webpages?
-            </h2>
-            <p>People use many different devices to access the internet. Each device is different - not just in the size of screen but also in terms of the resolution of the screen (pixels). Responsive design means your website looks great for everyone regardless of the device they are using. When implementing responsive design the main thing you need to remember is not to use fixed pixel size to determine width - but instead state the pixel as a percentage of the screen. For example, 300 pixels = 24% of the page (this is an estimate, and depends on the screen being used).
-            </p>
-        </div>
-        <div class="question-three">
-            <h2> What is semantic structure?</h2>
-            <p>Semantic HTML is the use of HTML to reinforce the meaning (semantics) of the information in webpages and web applications rather than merely to define its presentation or look.
-            </p>
-        </div>
-    </div>
+        <section class="container">
+            <div class="row">
+                <article class="twelve columns blogcontent">
+                    <p> 28 May 2016</p>
+                    <h4> What is grid based design?</h4>
+                    <p>Grid based design takes advantage of the way people read (left - right, then top - bottom). It uses columns and rows within the page to make the most out of a page layout. A grid is split in rows and columns and HTML elements are placed in each area of the grid. Typically a row is divided into 12 columns (1/12 = 8.33% of the page, 2/12 = 16.66% of the page and so on). 12 is a good number to use because the width of a page is typically divided into 2,3 or 4 sections and 12 is the lowest number that is divisible by all those numbers.</p>
 
-</body>
+                    <h4>Whats all the hype about responsive webpages?</h4>
+                    <p>People use many different devices to access the internet. Each device is different - not just in the size of screen but also in terms of the resolution of the screen (pixels). Responsive design means your website looks great for everyone regardless of the device they are using. When implementing responsive design the main thing you need to remember is not to use fixed pixel size to determine width - but instead state the pixel as a percentage of the screen. For example, 300 pixels = 24% of the page (this is an estimate, and depends on the screen being used).</p>
+
+                    <h4> What is semantic structure?</h4> <p>Semantic HTML is the use of HTML to reinforce the meaning (semantics) of the information in webpages and web applications rather than merely to define its presentation or look.</p>
+                </article>
+            </div>
+        </section>
+  </body>
 </html>
-
