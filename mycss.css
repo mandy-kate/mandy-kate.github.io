@@ -1,0 +1,6 @@
+#mypic {
+    background-image: url('http://www.casadelvino.co.nz/images/central_otago_wine_01.jpg');
+    background-size: cover;
+    min-height: 23.5rem;
+    width: 100%;
+}
