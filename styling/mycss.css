@@ -24,3 +24,9 @@ h3 {
     justify-content: center;
     color: floralwhite;
 }
+
+#quote {
+    display:flex;
+    justify-content: center;
+    color: darkblue;
+}
