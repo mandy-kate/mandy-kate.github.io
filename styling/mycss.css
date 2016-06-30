@@ -25,8 +25,25 @@ h3 {
     color: floralwhite;
 }
 
+h5 {
+    display: flex;
+    justify-content: center;
+    color: floralwhite;
+}
+
 #quote {
     display:flex;
     justify-content: center;
     color: darkblue;
+}
+
+ul.first {
+    display:flex;
+    justify-content: left;
+
+}
+
+ul.second {
+    display:flex;
+    justify-content: right;
 }

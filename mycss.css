@@ -4,3 +4,11 @@
     min-height: 23.5rem;
     width: 100%;
 }
+
+ul.first {
+    position:fixed; float:left
+}
+
+ul.second {
+    position:fixed; float:right
+}
