@@ -4,7 +4,16 @@
   "description": "Mandy Baker",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "browserify . -o bundle.js -g uglifyify",
+    "sass": "node-sass -w stylesheets/sass/ -o stylesheets/css/",
+    "dev:start": "budo . -d --serve bundle.js --live",
+    "postinstall": "browserify ./index.js -o ./bundle.js -t babelify -g uglifyify",
+    "start": "node server.js"
+  },
+  "browserify": {
+    "transform": [
+      "babelify"
+    ]
   },
   "repository": {
     "type": "git",
@@ -15,5 +24,23 @@
   "bugs": {
     "url": "https://github.com/mandy-kate/mandy-kate.github.io/issues"
   },
-  "homepage": "https://github.com/mandy-kate/mandy-kate.github.io#readme"
+  "homepage": "https://github.com/mandy-kate/mandy-kate.github.io#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.14.0",
+    "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
+    "body-parser": "^1.15.2",
+    "browserify": "^13.1.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "path": "^0.12.7",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "react-router": "^2.8.1",
+    "uglifyify": "^3.0.3"
+  },
+  "devDependencies": {
+    "budo": "^9.2.0",
+    "node-sass": "^3.10.0"
+  }
 }
