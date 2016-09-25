@@ -1,0 +1,19 @@
+{
+  "name": "mandy-kate.github.io",
+  "version": "1.0.0",
+  "description": "Mandy Baker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mandy-kate/mandy-kate.github.io.git"
+  },
+  "author": "Mandy Baker",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mandy-kate/mandy-kate.github.io/issues"
+  },
+  "homepage": "https://github.com/mandy-kate/mandy-kate.github.io#readme"
+}
