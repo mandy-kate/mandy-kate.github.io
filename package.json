@@ -7,7 +7,7 @@
     "build": "browserify . -o bundle.js -g uglifyify",
     "sass": "node-sass -w stylesheets/sass/ -o stylesheets/css/",
     "dev:start": "budo . -d --serve bundle.js --live",
-    "postinstall": "browserify ./index.js -o ./bundle.js -t babelify -g uglifyify",
+    "postinstall": "browserify ./index.js -o ./public/bundle.js -t babelify -g uglifyify",
     "start": "node server.js"
   },
   "browserify": {
