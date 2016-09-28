@@ -41,6 +41,7 @@
   },
   "devDependencies": {
     "budo": "^9.2.0",
+    "gh-pages": "^0.11.0",
     "node-sass": "^3.10.0"
   }
 }
