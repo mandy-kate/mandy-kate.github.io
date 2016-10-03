@@ -7,7 +7,7 @@ class DevHeader extends Component {
   }
 
   render () {
-    return <h2 className="devHeader">Web developer for hire</h2>
+    return <h2 className="devHeader">Web Developer</h2>
   }
 
 }
