@@ -12,7 +12,7 @@ class Header extends Component {
       <header className="header" >
         <div className="header-inner">
           <div className="header-name">
-            <h1 className="header-side header-left">Mandy</h1>
+            <h1 className="header-side header-left">Amanda</h1>
             <h1 className="header-side header-left"> Baker</h1>
           </div>
         </div>
