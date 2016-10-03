@@ -118,12 +118,23 @@ a {
 
 .header-left {
   line-height: .0em;
+  margin: 35px;
 }
 
 .app-inner {
   background-color: #F0F0F2;
-  background-image: url("../../images/background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 30%;
+  background-size: cover;
+  height: 100VH;
 }
+
+.Image {
+  background-image: url("../../images/background.jpg");
+  background-size: cover;
+  height: 100VH;
+}
+
+  /*  splash pages
+    paralax image*/
