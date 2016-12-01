@@ -12,18 +12,16 @@ class App extends Component {
 
   render () {
     console.log("app rendering")
-    return <div className="app-container">
-
-      <div className="app-inner">
-        <Header />
-        <DevHeader />
-        <Image />
-
-        <Links />
+    return (
+      <div className="app-container">
+        <div className="app-inner">
+          <Header />
+          <Links />
+          {this.props.children}
+        </div>
       </div>
-    </div>
+    )
   }
-
 }
 
 export default App
