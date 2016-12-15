@@ -13,7 +13,7 @@ render((
         <Route path='/' component={App}>
             <IndexRoute component={Home}/>
             <Route path='/projects' component={Projects}/>
-            <Route path='/contact' component={Contact}/>
+            <Route path='/about' component={Contact}/>
             <Route path='/resume' component={Resume}/>
         </Route>
     </Router>
