@@ -10,7 +10,6 @@ class Home extends Component {
 
     return <div>
       <header className="header" >
-      hello home
       </header>
      </div>
   }
