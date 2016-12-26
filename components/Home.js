@@ -1,18 +1,18 @@
-import React, { Component } from 'react'
+// import React, { Component } from 'react'
 
-class Home extends Component {
+// class Home extends Component {
 
-  constructor (props) {
-    super(props)
-  }
+//   constructor (props) {
+//     super(props)
+//   }
 
-  render () {
+//   render () {
 
-    return <div>
-      <header className="header" >
-      </header>
-     </div>
-  }
-}
+//     return <div>
+//       <header className="header" >
+//       </header>
+//      </div>
+//   }
+// }
 
-export default Home
+// export default Home
