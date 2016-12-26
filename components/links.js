@@ -10,23 +10,16 @@ class Links extends Component {
 
   render () {
     console.log('Im here in links')
-    return  <div className="img-container">
-      <links className="links">
-        <nav className="image-nav">
-          <img className="image" src='./public/placeholder.jpg'></img>
-          <img className="image" src='./public/placeholder.jpg'></img>
-          <img className="image" src='./public/placeholder.jpg'></img>
-        </nav>
-        <nav className="link-nav">
-          <Link className="image" to='/resume'>Resume</Link>
-          <Link className="image" to='/contact'>Contact</Link>
-          <Link className="image" to='/projects'>Projects</Link>
-        </nav>
-    </links>
-  </div>
+    return <div className="img-container">
+        <h3>web developer</h3>
+        <links className="links">
+          <nav className="link-nav">
+            <Link className="image" to='/contact'>About</Link>
+            <Link className="image" to='/projects'>Projects</Link>
+          </nav>
+        </links>
+      </div>
   }
 }
 
 export default Links
-
-//<img className="Image" src="http://i.imgur.com/CPwmfc5.jpg"/>

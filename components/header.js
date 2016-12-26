@@ -11,7 +11,7 @@ class Header extends Component {
     return <div>
       <header className="header" >
         <div className="header-inner">
-           <h1>Amanda Baker - Web Developer</h1>
+           <h1>AMANDA BAKER</h1>
         </div>
       </header>
      </div>

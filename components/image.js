@@ -7,8 +7,9 @@ class Image extends Component {
   }
 
   render () {
+    console.log("image rendering")
     return <div className="img-container">
-      <img className="Image" src="http://i.imgur.com/CPwmfc5.jpg" />
+      <img className="mainImage" src='./public/background.jpg'></img>
 
 
 
