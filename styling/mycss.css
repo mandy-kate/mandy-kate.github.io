@@ -1,7 +1,7 @@
 h1 {
     color: black;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 
 h3 {
@@ -9,7 +9,7 @@ h3 {
     justify-content: center;
     color: black;
     font-family: Questrial;
-    padding-top: 10rem;
+    padding-top: 8rem;
     padding-bottom: .5rem;
 }
 
@@ -67,11 +67,10 @@ a {
   position: absolute;
   bottom: 16px;
   bottom: 1rem;
-  padding: 32px;
-  padding: 2rem;
+  padding: 1.5rem;
   max-width: 600px;
   z-index: 1;
-  font-size: 3.5rem;
+  font-size: 30rem;
   margin: 0px;
   font-family: Questrial;
   color: white;
@@ -109,7 +108,7 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 20rem;
+  padding: 15rem;
   padding-bottom: 1rem;
   font-size: 2.5rem;
 }
