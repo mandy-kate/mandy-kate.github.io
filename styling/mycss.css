@@ -1,6 +1,7 @@
 h1 {
     color: black;
     text-align: center;
+    font-size: 1.5em;
 }
 
 h3 {
@@ -8,10 +9,8 @@ h3 {
     justify-content: center;
     color: black;
     font-family: Questrial;
-    top-padding: 10rem;
-    top-border: 10rem;
-    padding: 2.5rem;
-    border: 2.5rem;
+    padding-top: 10rem;
+    padding-bottom: .5rem;
 }
 
 h5 {
@@ -100,16 +99,22 @@ a {
 
 .image {
   top-padding: .5rem;
-  padding: 2rem;
-  border: 2rem;
+  padding: 1rem;
   text-align: center;
+  font-size: 1em;
+
  }
-/*
- .mainImage {
-  background-image: url('../public/background.jpg');
-  background-size: cover;
-  height: 100VH;
- }*/
-/*
-    splash pages
-    paralax image*/
+
+ .socialLinks {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 20rem;
+  padding-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+a:hover {
+    color: white;
+}
+
