@@ -17,6 +17,7 @@ class App extends Component {
         <div className="app-inner">
           <Header />
           <Links />
+          <DevHeader />
           {this.props.children}
         </div>
       </div>
